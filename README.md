@@ -19,9 +19,9 @@ The script provides two types of visualizations:
 2. **3D Visualization**: Displays the tree structure in 3D using `plotly`, 
 3. with interactive checkboxes to select nodes and view their child connections.
 ### 2D Visualization Example
-![2D Visualization](docs/2d_visualization.png)
+![2D Visualization](docs/2d_visualization.jpg)
 ### 3D Visualization Example
-![3D Visualization](docs/3d_visualization.png)
+![3D Visualization](docs/3d_visualization.jpg)
 
 ## Example
 ```sh
