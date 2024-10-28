@@ -22,13 +22,11 @@ The script provides two types of visualizations:
 ![2D Visualization](docs/2d_visualization.png)
 ### 3D Visualization Example
 ![3D Visualization](docs/3d_visualization.png)
-## Requirements
-Make sure to install the required packages before running the script:
-```sh
-pip install matplotlib networkx plotly
-```
+
 ## Example
 ```sh
 python main.py --total_nodes 100 --leaf_nodes 20
 ```
+## Or run generated executable
+
 This will generate a tree with 100 total nodes and 20 leaf nodes, and visualize it in both 2D and 3D formats.
