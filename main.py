@@ -5,7 +5,7 @@ from tree_visualizer import TreeVisualizer
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Generate a non-binary tree with specified total nodes and leaf nodes.")
+    parser = argparse.ArgumentParser(description="Generate a non-binary tree with specified total nodes and leaf nodes")
     parser.add_argument(
         '--total_nodes',
         type=int,
