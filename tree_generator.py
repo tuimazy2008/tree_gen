@@ -16,7 +16,8 @@ class TreeGenerator:
         self.branches_to_create = leaf_nodes
 
     def create_node_children(self, node: TreeNode):
-        child_num = random.randint(1, self.branches_to_create) if self.nodes_to_create > self.branches_to_create else self.branches_to_create
+        child_num = random.randint(1, self.branches_to_create) if self.nodes_to_create > self.branches_to_create\
+            else self.branches_to_create
 
         for child_idx in range(child_num):
             if not self.nodes_to_create:
