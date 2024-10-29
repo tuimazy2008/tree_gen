@@ -1,3 +1,4 @@
+import logging
 import random
 
 
@@ -27,7 +28,7 @@ class TreeGenerator:
                 self.branches_to_create -= 1
 
             child_node = TreeNode(self.nodes_to_create)
-            print(f'Creating element {child_node.value} under {node.value}')
+            logging.info(f'Creating element {child_node.value} under {node.value}')
             node.children.append(child_node)
             self.nodes_to_create -= 1
 
